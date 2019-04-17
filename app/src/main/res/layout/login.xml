@@ -18,12 +18,13 @@
             app:layout_constraintTop_toTopOf="parent" android:textColor="@color/colorAccent" android:textSize="12sp"/>
 
     <EditText
-            android:id="@+id/senha"
+            android:id="@+id/textosenha"
             android:layout_width="326dp"
             android:layout_height="36dp"
             android:inputType="textPassword"
             android:ems="10"
-            tools:layout_editor_absoluteY="281dp" tools:layout_editor_absoluteX="31dp" android:textSize="12sp"/>
+            tools:layout_editor_absoluteY="281dp" tools:layout_editor_absoluteX="31dp" android:textSize="12sp"
+            tools:ignore="MissingConstraints"/>
     <Button
             android:text="Entrar"
             android:layout_width="70dp"
@@ -31,47 +32,48 @@
             tools:layout_editor_absoluteX="289dp" android:id="@+id/botao_login"
             android:textColor="#7d72b4"
             android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
-            android:fontFamily="sans-serif" android:textSize="12sp"/>
+            android:fontFamily="sans-serif" android:textSize="12sp" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Senha"
             android:layout_width="wrap_content"
             android:layout_height="19dp" tools:layout_editor_absoluteY="262dp"
             tools:layout_editor_absoluteX="31dp" android:id="@+id/senha" android:textSize="14sp"
-            android:textColor="@color/TituloInformacao" android:typeface="monospace"/>
+            android:textColor="@color/TituloInformacao" android:typeface="monospace" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="E-mail"
             android:layout_width="wrap_content"
             android:layout_height="20dp" tools:layout_editor_absoluteY="188dp"
             tools:layout_editor_absoluteX="31dp" android:id="@+id/textView3" android:textSize="14sp"
-            android:textColor="@color/TituloInformacao" android:typeface="monospace"/>
+            android:textColor="@color/TituloInformacao" android:typeface="monospace" tools:ignore="MissingConstraints"/>
     <TextView
             android:textColor="@color/titulo"
             android:text="Ainda não tem conta?"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="411dp"
-            tools:layout_editor_absoluteX="28dp" android:id="@+id/pergunta" android:textSize="16sp"/>
+            tools:layout_editor_absoluteX="28dp" android:id="@+id/pergunta" android:textSize="16sp"
+            tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Criar Conta"
             android:layout_width="87dp"
             android:layout_height="22dp" tools:layout_editor_absoluteY="410dp"
             tools:layout_editor_absoluteX="195dp" android:id="@+id/botao_criarConta" android:textStyle="italic"
-            android:textSize="16sp" android:textColor="@color/titulo"/>
+            android:textSize="16sp" android:textColor="@color/titulo" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Esqueci minha senha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="310dp"
             tools:layout_editor_absoluteX="267dp" android:id="@+id/esqueciSenha" android:textColor="@color/titulo"
-            android:textStyle="italic" android:textSize="10sp"/>
+            android:textStyle="italic" android:textSize="10sp" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="MEDMOB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="128dp"
             tools:layout_editor_absoluteX="171dp" android:id="@+id/textView17"
             android:textColor="@color/titulo" android:textStyle="bold" android:fontFamily="serif"
-            android:typeface="monospace"/>
+            android:typeface="monospace" tools:ignore="MissingConstraints"/>
     <ImageView
             android:layout_width="106dp"
             android:layout_height="93dp" app:srcCompat="@mipmap/logo" tools:layout_editor_absoluteY="35dp"
-            tools:layout_editor_absoluteX="152dp" android:id="@+id/imageView2"/>
+            tools:layout_editor_absoluteX="152dp" android:id="@+id/imageView2" tools:ignore="MissingConstraints"/>
 
 </android.support.constraint.ConstraintLayout>

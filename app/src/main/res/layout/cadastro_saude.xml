@@ -3,23 +3,81 @@
                                              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
+
     <TextView
             android:text="Informações de Saúde"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="87dp"
             tools:layout_editor_absoluteX="124dp" android:id="@+id/textView14"
-            android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"/>
+            android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Cadastro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
             tools:layout_editor_absoluteX="160dp" android:id="@+id/textView15" android:textSize="18sp"
-            android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"/>
+            android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
     <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="213dp"
             android:layout_height="19dp"
             tools:layout_editor_absoluteY="53dp" tools:layout_editor_absoluteX="113dp" android:id="@+id/progressBar3"
             android:indeterminate="false" android:progressTint="@color/titulo" android:progress="75" android:max="100"
-    />
+            tools:ignore="MissingConstraints"/>
+
+    <View
+            android:id="@+id/myRectangleView"
+            android:layout_width="358dp"
+            android:layout_height="32dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="181dp"
+            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView2"
+            android:layout_width="358dp"
+            android:layout_height="32dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="259dp"
+            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <Spinner
+            android:id="@+id/tipoSanguineo"
+            android:layout_width="119dp"
+            android:layout_height="31dp" tools:layout_editor_absoluteY="182dp"
+            tools:layout_editor_absoluteX="41dp" android:visibility="visible" tools:ignore="MissingConstraints"
+            android:entries="@id/tipoSanguineo"/>
+
+    <resources>
+        <string-array name= "tipoSanguineo">
+            <item>A+</item>
+            <item>A-</item>
+            <item>B+</item>
+            <item>B-</item>
+            <item>O+</item>
+            <item>O-</item>
+            <item>AB+</item>
+            <item>AB-</item>
+        </string-array>
+    </resources>
+    <TextView
+            android:text="Tipo Sanguíneo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="154dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/tipoSanguineoTexto" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Pressão"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="232dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/pressaoTexto" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <Spinner
+            android:layout_width="115dp"
+            android:layout_height="28dp" tools:layout_editor_absoluteY="262dp"
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/pressao" tools:ignore="MissingConstraints"/>
+    <resources>
+        <string-array android:name= "pressaoEscolha">
+            <item>Normal</item>
+            <item>Baixa</item>
+            <item>Alta</item>
+        </string-array>
+    </resources>
 </android.support.constraint.ConstraintLayout>
