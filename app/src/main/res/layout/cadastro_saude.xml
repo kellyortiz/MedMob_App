@@ -4,6 +4,43 @@
                                              android:layout_height="match_parent">
 
 
+    <Button
+            android:text="Anterior"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="594dp"
+            tools:layout_editor_absoluteX="26dp" android:id="@+id/button" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Próximo"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="594dp"
+            tools:layout_editor_absoluteX="307dp" android:id="@+id/button5" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <EditText
+            android:layout_width="355dp"
+            android:layout_height="59dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            tools:layout_editor_absoluteY="517dp" tools:layout_editor_absoluteX="27dp" android:id="@+id/editText9"
+    />
+    <RadioButton
+            android:text="Sim"
+            android:layout_width="56dp"
+            android:layout_height="27dp" tools:layout_editor_absoluteY="336dp"
+            tools:layout_editor_absoluteX="106dp" android:id="@+id/radioButton_feminino2" android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:buttonTint="@color/TituloInformacao" android:checked="false" android:duplicateParentState="true"
+            tools:ignore="MissingConstraints"/>
+    <RadioButton
+            android:text="Não"
+            android:layout_width="57dp"
+            android:layout_height="27dp" tools:layout_editor_absoluteY="336dp"
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/radioButton_masculino2"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" android:checked="true" android:buttonTint="@color/TituloInformacao"
+            tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Informações de Saúde"
             android:layout_width="wrap_content"
@@ -38,6 +75,24 @@
             android:layout_height="32dp"
             android:background="@drawable/retangulo" tools:layout_editor_absoluteY="259dp"
             tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView3"
+            android:layout_width="358dp"
+            android:layout_height="32dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="333dp"
+            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView4"
+            android:layout_width="358dp"
+            android:layout_height="63dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="413dp"
+            tools:layout_editor_absoluteX="27dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView5"
+            android:layout_width="358dp"
+            android:layout_height="52dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="517dp"
+            tools:layout_editor_absoluteX="26dp" tools:ignore="MissingConstraints"/>
     <Spinner
             android:id="@+id/tipoSanguineo"
             android:layout_width="119dp"
@@ -64,10 +119,28 @@
             tools:layout_editor_absoluteX="30dp" android:id="@+id/tipoSanguineoTexto" android:typeface="monospace"
             android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
     <TextView
+            android:text="Diabete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="306dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/pressaoTexto" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Alergia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="384dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/pressaoTexto3" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Observação médica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="491dp"
+            tools:layout_editor_absoluteX="27dp" android:id="@+id/pressaoTexto4" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
             android:text="Pressão"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="232dp"
-            tools:layout_editor_absoluteX="30dp" android:id="@+id/pressaoTexto" android:typeface="monospace"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/pressaoTexto2" android:typeface="monospace"
             android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
     <Spinner
             android:layout_width="115dp"
@@ -80,4 +153,11 @@
             <item>Alta</item>
         </string-array>
     </resources>
+    <EditText
+            android:layout_width="355dp"
+            android:layout_height="71dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            tools:layout_editor_absoluteY="413dp" tools:layout_editor_absoluteX="30dp" android:id="@+id/editText8"
+    />
 </android.support.constraint.ConstraintLayout>
