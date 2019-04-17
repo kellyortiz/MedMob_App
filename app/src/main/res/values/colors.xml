@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorteste">#0d040404</color>
+    <color name="colorAccent">#73020202</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="preto"> #000</color>
+    <color name="TituloInformacao">#BAA5E0</color>
+    <color name="barraDeProgresso">#9792B6</color>
+    <color name= "textoBotao">#7d72b4</color>
+    <color name="titulo">#7f78a4</color>
+</resources>

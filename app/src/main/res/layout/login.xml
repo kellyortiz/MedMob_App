@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+            android:id="@+id/email"
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="52dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:textColor="@color/colorAccent" android:textSize="12sp"/>
+
+    <EditText
+            android:id="@+id/senha"
+            android:layout_width="326dp"
+            android:layout_height="36dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            tools:layout_editor_absoluteY="281dp" tools:layout_editor_absoluteX="31dp" android:textSize="12sp"/>
+    <Button
+            android:text="Entrar"
+            android:layout_width="70dp"
+            android:layout_height="19dp" tools:layout_editor_absoluteY="343dp"
+            tools:layout_editor_absoluteX="289dp" android:id="@+id/botao_login"
+            android:textColor="#7d72b4"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:fontFamily="sans-serif" android:textSize="12sp"/>
+    <TextView
+            android:text="Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp" tools:layout_editor_absoluteY="262dp"
+            tools:layout_editor_absoluteX="31dp" android:id="@+id/senha" android:textSize="14sp"
+            android:textColor="@color/TituloInformacao" android:typeface="monospace"/>
+    <TextView
+            android:text="E-mail"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" tools:layout_editor_absoluteY="188dp"
+            tools:layout_editor_absoluteX="31dp" android:id="@+id/textView3" android:textSize="14sp"
+            android:textColor="@color/TituloInformacao" android:typeface="monospace"/>
+    <TextView
+            android:textColor="@color/titulo"
+            android:text="Ainda não tem conta?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="411dp"
+            tools:layout_editor_absoluteX="28dp" android:id="@+id/pergunta" android:textSize="16sp"/>
+    <TextView
+            android:text="Criar Conta"
+            android:layout_width="87dp"
+            android:layout_height="22dp" tools:layout_editor_absoluteY="410dp"
+            tools:layout_editor_absoluteX="195dp" android:id="@+id/botao_criarConta" android:textStyle="italic"
+            android:textSize="16sp" android:textColor="@color/titulo"/>
+    <TextView
+            android:text="Esqueci minha senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="310dp"
+            tools:layout_editor_absoluteX="267dp" android:id="@+id/esqueciSenha" android:textColor="@color/titulo"
+            android:textStyle="italic" android:textSize="10sp"/>
+    <TextView
+            android:text="MEDMOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="128dp"
+            tools:layout_editor_absoluteX="171dp" android:id="@+id/textView17"
+            android:textColor="@color/titulo" android:textStyle="bold" android:fontFamily="serif"
+            android:typeface="monospace"/>
+    <ImageView
+            android:layout_width="106dp"
+            android:layout_height="93dp" app:srcCompat="@mipmap/logo" tools:layout_editor_absoluteY="35dp"
+            tools:layout_editor_absoluteX="152dp" android:id="@+id/imageView2"/>
+
+</android.support.constraint.ConstraintLayout>
