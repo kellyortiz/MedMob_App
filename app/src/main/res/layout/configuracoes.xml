@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="Configurações"
+            android:layout_width="179dp"
+            android:layout_height="37dp" tools:layout_editor_absoluteY="142dp"
+            tools:layout_editor_absoluteX="116dp" android:id="@+id/textView24"
+            android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"
+            tools:ignore="MissingConstraints" android:textSize="20sp"/>
+    <Button
+            android:text="        Eu"
+            android:layout_width="337dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="213dp"
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular2" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+            android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"/>
+    <Button
+            android:text="        Notificação"
+            android:layout_width="337dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="286dp"
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular3" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+            android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"/>
+    <Button
+            android:text="        Conta"
+            android:layout_width="337dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="356dp"
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular4" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+            android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"/>
+    <Button
+            android:text="        Créditos"
+            android:layout_width="337dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="428dp"
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular5" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+            android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"/>
+</android.support.constraint.ConstraintLayout>
