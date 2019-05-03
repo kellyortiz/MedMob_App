@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="Informações adicionais:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="448dp"
+            tools:layout_editor_absoluteX="29dp" android:id="@+id/tipoSanguineoTexto2" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Dosagem por dia:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="213dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/tipoSanguineoTexto3" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Nome do medicamento:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="149dp"
+            tools:layout_editor_absoluteX="26dp" android:id="@+id/tipoSanguineoTexto6" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Próximo"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="594dp"
+            tools:layout_editor_absoluteX="319dp" android:id="@+id/botaoProximo" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Anterior"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="594dp"
+            tools:layout_editor_absoluteX="26dp" android:id="@+id/botaoAnterior" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Pular"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="594dp"
+            tools:layout_editor_absoluteX="173dp" android:id="@+id/botaoPular" android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Formato do rémedio:"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="370dp"
+            tools:layout_editor_absoluteX="29dp" android:id="@+id/tipoSanguineoTexto4" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Unidade de medida:"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="288dp"
+            tools:layout_editor_absoluteX="29dp" android:id="@+id/tipoSanguineoTexto5" android:typeface="monospace"
+            android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView6"
+            android:layout_width="358dp"
+            android:layout_height="71dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="480dp"
+            tools:layout_editor_absoluteX="26dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/myRectangleView7"
+            android:layout_width="358dp"
+            android:layout_height="23dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="178dp"
+            tools:layout_editor_absoluteX="25dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_capscula"
+            android:layout_width="38dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="399dp"
+            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_redondo"
+            android:layout_width="38dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="399dp"
+            tools:layout_editor_absoluteX="90dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_tipoGel"
+            android:layout_width="38dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="399dp"
+            tools:layout_editor_absoluteX="144dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_tipoGel2"
+            android:layout_width="38dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="326dp"
+            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_tipoGel3"
+            android:layout_width="44dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="326dp"
+            tools:layout_editor_absoluteX="84dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_tipoGel4"
+            android:layout_width="83dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="326dp"
+            tools:layout_editor_absoluteX="139dp" tools:ignore="MissingConstraints"/>
+    <View
+            android:id="@+id/formato_gota"
+            android:layout_width="38dp"
+            android:layout_height="30dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="399dp"
+            tools:layout_editor_absoluteX="198dp" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Informações do medicamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="66dp"
+            tools:layout_editor_absoluteX="113dp" android:id="@+id/textView18"
+            android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="182dp" android:id="@+id/textView20" android:textSize="18sp"
+            android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"
+            tools:ignore="MissingConstraints"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="213dp"
+            android:layout_height="19dp"
+            tools:layout_editor_absoluteY="96dp" tools:layout_editor_absoluteX="128dp" android:id="@+id/progressBar4"
+            android:indeterminate="false" android:progressTint="@color/titulo" android:progress="100" android:max="100"
+            tools:ignore="MissingConstraints"/>
+    <TextView
+            android:layout_width="355dp"
+            android:layout_height="17dp" tools:layout_editor_absoluteY="184dp"
+            tools:layout_editor_absoluteX="25dp" android:id="@+id/nome_medicamento"/>
+    <TextView
+            android:text="ml"
+            android:layout_width="19dp"
+            android:layout_height="22dp" tools:layout_editor_absoluteY="333dp"
+            tools:layout_editor_absoluteX="39dp" android:id="@+id/textView21"/>
+    <TextView
+            android:text="Gota"
+            android:layout_width="32dp"
+            android:layout_height="20dp" tools:layout_editor_absoluteY="332dp"
+            tools:layout_editor_absoluteX="90dp" android:id="@+id/textView22"/>
+    <TextView
+            android:text="Comprimido"
+            android:layout_width="81dp"
+            android:layout_height="22dp" tools:layout_editor_absoluteY="330dp"
+            tools:layout_editor_absoluteX="141dp" android:id="@+id/textView23"/>
+</android.support.constraint.ConstraintLayout>
