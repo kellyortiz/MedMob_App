@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
     <TextView
@@ -67,6 +69,12 @@
             android:background="@drawable/retangulo" tools:layout_editor_absoluteY="178dp"
             tools:layout_editor_absoluteX="25dp" tools:ignore="MissingConstraints"/>
     <View
+            android:id="@+id/myRectangleView10"
+            android:layout_width="358dp"
+            android:layout_height="23dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="239dp"
+            tools:layout_editor_absoluteX="22dp" tools:ignore="MissingConstraints"/>
+    <View
             android:id="@+id/formato_capscula"
             android:layout_width="38dp"
             android:layout_height="30dp"
@@ -111,22 +119,22 @@
     <TextView
             android:text="Informações do medicamento"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="66dp"
-            tools:layout_editor_absoluteX="113dp" android:id="@+id/textView18"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="55dp"
+            tools:layout_editor_absoluteX="91dp" android:id="@+id/textView18"
             android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Cadastro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
-            tools:layout_editor_absoluteX="182dp" android:id="@+id/textView20" android:textSize="18sp"
+            tools:layout_editor_absoluteX="160dp" android:id="@+id/textView20" android:textSize="18sp"
             android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
     <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="213dp"
             android:layout_height="19dp"
-            tools:layout_editor_absoluteY="96dp" tools:layout_editor_absoluteX="128dp" android:id="@+id/progressBar4"
+            tools:layout_editor_absoluteY="82dp" tools:layout_editor_absoluteX="106dp" android:id="@+id/progressBar4"
             android:indeterminate="false" android:progressTint="@color/titulo" android:progress="100" android:max="100"
             tools:ignore="MissingConstraints"/>
     <TextView
@@ -148,4 +156,12 @@
             android:layout_width="81dp"
             android:layout_height="22dp" tools:layout_editor_absoluteY="330dp"
             tools:layout_editor_absoluteX="141dp" android:id="@+id/textView23"/>
+    <ImageView
+            android:layout_width="39dp"
+            android:layout_height="31dp" app:srcCompat="@mipmap/ic_launcher_foreground"
+            tools:layout_editor_absoluteY="399dp" tools:layout_editor_absoluteX="30dp" android:id="@+id/comprimido"/>
+    <TextView
+            android:layout_width="355dp"
+            android:layout_height="21dp" tools:layout_editor_absoluteY="239dp"
+            tools:layout_editor_absoluteX="23dp" android:id="@+id/textView25"/>
 </android.support.constraint.ConstraintLayout>
