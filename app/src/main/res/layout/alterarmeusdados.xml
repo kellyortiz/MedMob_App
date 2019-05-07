@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="Alterar meus dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="114dp"
+            tools:layout_editor_absoluteX="105dp" android:id="@+id/text_AlterarMeusDados" android:textSize="18sp"
+            android:textColor="@color/titulo" android:textStyle="bold" android:typeface="monospace"
+            tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Salvar"
+            android:layout_width="65dp"
+            android:layout_height="23dp" tools:layout_editor_absoluteY="433dp"
+            tools:layout_editor_absoluteX="307dp" android:id="@+id/salvarMeusDados"
+            android:textColor="@color/textoBotao"
+            android:background="@drawable/botao_personalizado" android:backgroundTint="@color/colorteste"
+            android:textSize="10sp" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="CEP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="352dp"
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/textView35" android:textSize="14sp"
+            android:typeface="monospace" android:textColor="@color/barraDeProgresso" tools:ignore="MissingConstraints"/>
+    <EditText
+            android:layout_width="332dp"
+            android:layout_height="36dp"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="368dp" tools:layout_editor_absoluteX="40dp" android:id="@+id/editText18"
+            android:textColor="@color/colorAccent" android:textSize="12sp" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Endereço completo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="273dp"
+            tools:layout_editor_absoluteX="38dp" android:id="@+id/textView34" android:typeface="monospace"
+            android:textColor="@color/barraDeProgresso" android:textSize="14sp" tools:ignore="MissingConstraints"/>
+    <EditText
+            android:layout_width="335dp"
+            android:layout_height="39dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            tools:layout_editor_absoluteY="293dp" tools:layout_editor_absoluteX="37dp" android:id="@+id/editText17"
+            android:textSize="12sp" tools:ignore="MissingConstraints"/>
+    <EditText
+            android:layout_width="334dp"
+            android:layout_height="36dp"
+            android:inputType="phone"
+            android:ems="10"
+            tools:layout_editor_absoluteY="205dp" tools:layout_editor_absoluteX="38dp" android:id="@+id/editText16"
+            android:textSize="12sp" android:textColor="@color/colorAccent" tools:ignore="MissingConstraints"/>
+    <TextView
+            android:text="Telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="186dp"
+            tools:layout_editor_absoluteX="38dp" android:id="@+id/textView33" android:textSize="14sp"
+            android:typeface="monospace" android:textColor="@color/barraDeProgresso" tools:ignore="MissingConstraints"/>
+</android.support.constraint.ConstraintLayout>
