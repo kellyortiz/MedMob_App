@@ -8,19 +8,19 @@
         tools:context=".TelaInicial">
 
     <ImageView
-            android:layout_width="440dp"
+            android:layout_width="455dp"
             android:layout_height="802dp" app:srcCompat="@mipmap/desenhoMapa"
             tools:layout_editor_absoluteY="-64dp" tools:layout_editor_absoluteX="-35dp" android:id="@+id/imageView5"
             android:visibility="visible" android:scaleType="center" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="MEDMOB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="447dp"
-            tools:layout_editor_absoluteX="93dp" android:id="@+id/textView19"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="348dp"
+            tools:layout_editor_absoluteX="118dp" android:id="@+id/textView19"
             android:textColor="@color/titulo" android:textStyle="bold" android:fontFamily="serif"
             android:typeface="monospace" android:textSize="40sp" tools:ignore="MissingConstraints"/>
     <ImageView
             android:layout_width="141dp"
-            android:layout_height="195dp" app:srcCompat="@mipmap/logo" tools:layout_editor_absoluteY="252dp"
-            tools:layout_editor_absoluteX="119dp" android:id="@+id/imageView6" tools:ignore="MissingConstraints"/>
+            android:layout_height="195dp" app:srcCompat="@mipmap/logo" tools:layout_editor_absoluteY="153dp"
+            tools:layout_editor_absoluteX="135dp" android:id="@+id/imageView6" tools:ignore="MissingConstraints"/>
 </android.support.constraint.ConstraintLayout>
