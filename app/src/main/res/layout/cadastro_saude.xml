@@ -52,7 +52,7 @@
             android:text="Cadastro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="16dp"
-            tools:layout_editor_absoluteX="160dp" android:id="@+id/textView15" android:textSize="18sp"
+            tools:layout_editor_absoluteX="169dp" android:id="@+id/textView15" android:textSize="18sp"
             android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
     <ProgressBar
@@ -145,7 +145,8 @@
     <Spinner
             android:layout_width="115dp"
             android:layout_height="28dp" tools:layout_editor_absoluteY="262dp"
-            tools:layout_editor_absoluteX="41dp" android:id="@+id/pressao" tools:ignore="MissingConstraints"/>
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/pressao" tools:ignore="MissingConstraints"
+    />
     <resources>
         <string-array android:name= "pressaoEscolha">
             <item>Normal</item>
