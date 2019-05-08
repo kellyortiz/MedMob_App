@@ -3,11 +3,29 @@
                                              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="414dp"
+            android:layout_height="68dp"
+            android:background="@color/quadrado" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints">
+    </LinearLayout>
+    <ImageView
+            android:layout_width="442dp"
+            android:layout_height="102dp" app:srcCompat="@drawable/logo_2" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="-15dp" android:id="@+id/imageView3"/>
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+            tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp"
+            android:id="@+id/floatingActionButton3" app:backgroundTint="@color/quadrado"
+            app:rippleColor="@color/quadrado"/>
     <TextView
             android:text="Ficha Médica"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="85dp"
-            tools:layout_editor_absoluteX="128dp" android:id="@+id/textView26" android:textSize="18sp"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="90dp"
+            tools:layout_editor_absoluteX="137dp" android:id="@+id/textView26" android:textSize="18sp"
             android:typeface="monospace" android:textColor="@color/titulo" android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
     <EditText
