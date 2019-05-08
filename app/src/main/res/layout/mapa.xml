@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="414dp"
+            android:layout_height="68dp"
+            android:background="@color/quadrado" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints">
+    </LinearLayout>
     <com.google.android.gms.maps.MapView
-            android:layout_width="423dp"
+            android:layout_width="426dp"
             android:layout_height="592dp" tools:layout_editor_absoluteY="68dp"
-            tools:layout_editor_absoluteX="-10dp" android:id="@+id/mapView"/>
+            tools:layout_editor_absoluteX="-12dp" android:id="@+id/mapView"/>
+    <ImageView
+            android:layout_width="442dp"
+            android:layout_height="102dp" app:srcCompat="@drawable/logo_2" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="-15dp" android:id="@+id/imageView7"/>
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+            tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp"
+            android:id="@+id/floatingActionButton" app:backgroundTint="@color/quadrado"
+            app:rippleColor="@color/quadrado"/>
 </android.support.constraint.ConstraintLayout>
