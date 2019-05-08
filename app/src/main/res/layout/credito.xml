@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="414dp"
+                android:layout_height="68dp"
+                android:background="@color/quadrado" tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="0dp" tools:ignore="MissingConstraints">
+        </LinearLayout>
+        <ImageView
+                android:layout_width="442dp"
+                android:layout_height="102dp" app:srcCompat="@drawable/logo_2" tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="-15dp" android:id="@+id/imageView4"/>
+        <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true" app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp"
+                android:id="@+id/floatingActionButton4" app:backgroundTint="@color/quadrado"
+                app:rippleColor="@color/quadrado"/>
+        <TextView
+                android:text="Configurações"
+                android:layout_width="179dp"
+                android:layout_height="37dp" tools:layout_editor_absoluteY="142dp"
+                tools:layout_editor_absoluteX="116dp" android:id="@+id/textView24"
+                android:textColor="@color/TituloInformacao" android:typeface="monospace" android:textStyle="bold"
+                tools:ignore="MissingConstraints" android:textSize="20sp"/>
+        <Button
+                android:text="        Eu"
+                android:layout_width="337dp"
+                android:layout_height="52dp" tools:layout_editor_absoluteY="213dp"
+                tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular2" android:textColor="@color/textoBotao"
+                android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+                android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"
+                android:textAllCaps="false"/>
+        <Button
+                android:text="        Notificação"
+                android:layout_width="337dp"
+                android:layout_height="52dp" tools:layout_editor_absoluteY="286dp"
+                tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular3" android:textColor="@color/textoBotao"
+                android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+                android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"
+                android:textAllCaps="false"/>
+        <Button
+                android:text="        Conta"
+                android:layout_width="337dp"
+                android:layout_height="52dp" tools:layout_editor_absoluteY="356dp"
+                tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular4" android:textColor="@color/textoBotao"
+                android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+                android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"
+                android:textAllCaps="false"/>
+        <Button
+                android:text="        Créditos"
+                android:layout_width="337dp"
+                android:layout_height="52dp" tools:layout_editor_absoluteY="428dp"
+                tools:layout_editor_absoluteX="33dp" android:id="@+id/botaoPular5" android:textColor="@color/textoBotao"
+                android:background="@drawable/botao_personalizado" android:backgroundTint="@color/configuracao"
+                android:textSize="18sp" tools:ignore="MissingConstraints" android:textAlignment="textStart"
+                android:textAllCaps="false"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
