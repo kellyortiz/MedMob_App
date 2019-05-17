@@ -117,10 +117,10 @@
     </resources>
     <View
             android:id="@+id/myRectangleView11"
-            android:layout_width="358dp"
-            android:layout_height="32dp"
-            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="313dp"
-            tools:layout_editor_absoluteX="30dp" tools:ignore="MissingConstraints"/>
+            android:layout_width="171dp"
+            android:layout_height="34dp"
+            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="309dp"
+            tools:layout_editor_absoluteX="214dp" tools:ignore="MissingConstraints"/>
     <TextView
             android:text="Diabete"
             android:layout_width="wrap_content"
