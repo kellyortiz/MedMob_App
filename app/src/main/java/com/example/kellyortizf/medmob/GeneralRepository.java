@@ -19,5 +19,33 @@ public class GeneralRepository {
                 nome, cpf, endereco, cep, dataNascimento, telefone, sexo);
     }
 
+    @Transactional
+    public void cadastraLogin(String password, String email){
+        jdbcTemplate.update("INSERT INTO Usuarios(Senha, Email) VALUES(?, ?);",
+                password, email);
+    }
+
+    @Transactional
+    public void cadastraRemedio(String nome, String dosagem, String adicional){
+        jdbcTemplate.update("INSERT INTO Medicamento(Nome, Dosagem, Adicional) VALUES(?, ?, ?, ?);",
+                nome, dosagem, adicional);
+    }
+
+    @Transactional
+    public boolean realizaLogin(String email, String password){
+       int count =  jdbcTemplate.queryForObject("SELECT Email, Senha FROM Usuarios WHERE Email = ? AND Senha = ?);",
+               new Object[]{email, password}, Integer.class);
+       if(count > 0){
+           return true;
+       } else {
+           return false;
+       }
+    }
+
+    @Transactional
+    public void cadastraFichaMedica(String tipoSanguineo, boolean diabetes, boolean pressao, String alergias, String observacao){
+        jdbcTemplate.update("INSERT INTO Medicamento(Tipo Sanguineo, Diabetes, Pressao, Alergias, Observacoes) VALUES(?, ?, ?, ?, ?);",
+                tipoSanguineo, diabetes, pressao, alergias, observacao);
+    }
 
 }
