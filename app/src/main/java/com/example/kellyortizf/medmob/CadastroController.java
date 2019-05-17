@@ -1,20 +1,16 @@
 package com.example.kellyortizf.medmob;
 
-import android.text.Editable;
-import android.util.Log;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import static android.content.ContentValues.TAG;
-
-
 public class CadastroController {
 
     @Autowired
-    GeneralRepository repository;
+    private GeneralRepository repository;
 
     String sexo;
     String nome;
@@ -49,7 +45,7 @@ public class CadastroController {
 
 
         // Check which radio button was clicked
-        switch(view.getId()) {
+        switch (view.getId()) {
             case R.id.radioButton_feminino:
                 if (checked)
                     this.sexo = "Feminino";
@@ -61,5 +57,12 @@ public class CadastroController {
         }
 
         repository.cadastraUsuário(nome, cpf, endereco, cep, dataNascimento, telefone, sexo);
+        Button botao_cadastroPessoal = (Button) findViewById(R.id.botao_cadastroPessoal);
+        botao_cadastroPessoal.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, NovaTela.class);
+                startActivity(it);
+            }
+        }
     }
 }

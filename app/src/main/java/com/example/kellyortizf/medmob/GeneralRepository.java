@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import javax.transaction.Transactional;
 
 
-@Repository
+//@Repository
 public class GeneralRepository {
 
     @Autowired
@@ -18,6 +18,5 @@ public class GeneralRepository {
         jdbcTemplate.update("INSERT INTO Cliente(Nome, CPF, Endereco, CEP, Data Nascimento, Telefone, Sexo) VALUES(?, ?, ?, ?, ?, ?, ?);",
                 nome, cpf, endereco, cep, dataNascimento, telefone, sexo);
     }
-
 
 }
