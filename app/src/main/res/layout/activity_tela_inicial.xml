@@ -9,7 +9,7 @@
 
     <ImageView
             android:layout_width="455dp"
-            android:layout_height="802dp" app:srcCompat="@mipmap/desenhoMapa"
+            android:layout_height="802dp" app:srcCompat="@mipmap/desenho_mapa"
             tools:layout_editor_absoluteY="-64dp" tools:layout_editor_absoluteX="-35dp" android:id="@+id/imageView5"
             android:visibility="visible" android:scaleType="center" tools:ignore="MissingConstraints"/>
     <TextView

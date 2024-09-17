@@ -6,6 +6,10 @@
                                              android:layout_height="match_parent">
 
     <TextView
+            android:layout_width="355dp"
+            android:layout_height="68dp" tools:layout_editor_absoluteY="483dp"
+            tools:layout_editor_absoluteX="23dp" android:id="@+id/textView29"/>
+    <TextView
             android:text="Informações adicionais:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="448dp"
@@ -56,12 +60,6 @@
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="288dp"
             tools:layout_editor_absoluteX="29dp" android:id="@+id/tipoSanguineoTexto5" android:typeface="monospace"
             android:textColor="@color/TituloInformacao" tools:ignore="MissingConstraints"/>
-    <View
-            android:id="@+id/myRectangleView6"
-            android:layout_width="358dp"
-            android:layout_height="71dp"
-            android:background="@drawable/retangulo" tools:layout_editor_absoluteY="480dp"
-            tools:layout_editor_absoluteX="26dp" tools:ignore="MissingConstraints"/>
     <View
             android:id="@+id/myRectangleView7"
             android:layout_width="358dp"
@@ -156,10 +154,6 @@
             android:layout_width="81dp"
             android:layout_height="22dp" tools:layout_editor_absoluteY="330dp"
             tools:layout_editor_absoluteX="141dp" android:id="@+id/textView23"/>
-    <ImageView
-            android:layout_width="39dp"
-            android:layout_height="31dp" app:srcCompat="@mipmap/ic_launcher_foreground"
-            tools:layout_editor_absoluteY="399dp" tools:layout_editor_absoluteX="30dp" android:id="@+id/comprimido"/>
     <TextView
             android:layout_width="355dp"
             android:layout_height="21dp" tools:layout_editor_absoluteY="239dp"
